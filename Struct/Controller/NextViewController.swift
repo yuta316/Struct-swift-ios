@@ -29,6 +29,7 @@ class NextViewController: UIViewController {
         print(person.hobby)
     }
     
+    
     @IBAction func OK(_ sender: Any) {
         //構造体にアクセスしそれぞれ格納
         person.name = nameText.text!
